@@ -10,7 +10,7 @@
  *        [1, 2, 3].some($equal(2));
  * 
  */
-Ninja.module('$equal', ['$curry'], function ($curry) {
+this.Ninja.module('$equal', ['$curry'], function ($curry) {
   
   /**
    * Testa se dois items sao iguais
